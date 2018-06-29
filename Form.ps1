@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
-
+$firstName = $null
 
 #FUNCTIONS
 function Submit([ref]$firstName){ 
